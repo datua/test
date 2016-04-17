@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/mybatis-test/mybatis-test.iml" filepath="$PROJECT_DIR$/mybatis-test/mybatis-test.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/String/String.iml" filepath="$PROJECT_DIR$/String/String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
+>>>>>>> 423a0305b7b98be3f4f74dfe0a1465160b5ee293
     </modules>
   </component>
 </project>
