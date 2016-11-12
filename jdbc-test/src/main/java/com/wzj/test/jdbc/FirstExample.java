@@ -25,6 +25,7 @@ public class FirstExample {
             statement = connection.createStatement();
             String sql = "select id, name, sex from user";
             resultSet = statement.executeQuery(sql);
+            statement.getGeneratedKeys();
             // 4 解析结果
             while (resultSet.next()) {
                 System.out.println("user id: " + resultSet.getInt("id"));
