@@ -49,5 +49,16 @@ public class DOMParser {
                 System.out.printf(e.getTextContent());
             }
         }
+
+        NodeList priceNodeList = element.getElementsByTagName("price");
+        System.out.println(priceNodeList.item(0).getChildNodes().item(0).getNodeValue());;
+        System.out.println(priceNodeList.item(0).getAttributes().getNamedItem("currency").getNodeValue());
+
+        NodeList describeNodeList = element.getElementsByTagName("describe");
+        System.out.println(describeNodeList.item(0).getNodeName());
+        System.out.println(describeNodeList.item(0).getChildNodes().item(0).getNodeValue());
+        System.out.println(describeNodeList.item(0).getChildNodes().item(1).getChildNodes().item(0).getNodeValue());
+        System.out.println(describeNodeList.item(0).getChildNodes().item(2).getNodeValue());
+
     }
 }
