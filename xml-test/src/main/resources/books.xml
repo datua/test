@@ -2,7 +2,8 @@
     <book>
         <name>head first jsp</name>
         <price currency="CNY">100.55</price>
-        <describe>a book about <bold>java</bold> servlet page</describe>
+        <describe>a book about <bold>java</bold> servlet page
+        </describe>
     </book>
     <book>
         <name>head first http</name>

@@ -1,0 +1,35 @@
+group 'com.wzj.test'
+version '1.0-SNAPSHOT'
+
+// sourceCompatibility = 1.8
+
+// 仓库配置在这里为什么不生效
+repositories {
+    mavenCentral()
+}
+
+project("jdk-test") {
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile group: 'junit', name: 'junit', version: '4.12'
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+    }
+}
+project("mockito-test") {
+    apply plugin: 'java'
+
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+
+    dependencies {
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        testCompile "org.mockito:mockito-core:2.+"
+    }
+}

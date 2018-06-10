@@ -2,7 +2,9 @@ package com.wzj.test.mybatis.generator.resoposity;
 
 import com.wzj.test.mybatis.generator.entity.User;
 import com.wzj.test.mybatis.generator.entity.UserExample;
+
 import java.util.List;
+
 import org.apache.ibatis.annotations.Param;
 
 public interface UserMapper {

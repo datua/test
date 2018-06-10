@@ -24,4 +24,5 @@ public class StringTest {
 
         System.out.println(b.stripTrailingZeros().toPlainString());
     }
+
 }

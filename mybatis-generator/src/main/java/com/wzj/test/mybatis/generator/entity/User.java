@@ -38,7 +38,6 @@ public class User {
      * This method returns the value of the database column user.id
      *
      * @return the value of user.id
-     *
      * @mbggenerated
      */
     public Integer getId() {
@@ -50,7 +49,6 @@ public class User {
      * This method sets the value of the database column user.id
      *
      * @param id the value for user.id
-     *
      * @mbggenerated
      */
     public void setId(Integer id) {
@@ -62,7 +60,6 @@ public class User {
      * This method returns the value of the database column user.name
      *
      * @return the value of user.name
-     *
      * @mbggenerated
      */
     public String getName() {
@@ -74,7 +71,6 @@ public class User {
      * This method sets the value of the database column user.name
      *
      * @param name the value for user.name
-     *
      * @mbggenerated
      */
     public void setName(String name) {
@@ -86,7 +82,6 @@ public class User {
      * This method returns the value of the database column user.sex
      *
      * @return the value of user.sex
-     *
      * @mbggenerated
      */
     public Boolean getSex() {
@@ -98,7 +93,6 @@ public class User {
      * This method sets the value of the database column user.sex
      *
      * @param sex the value for user.sex
-     *
      * @mbggenerated
      */
     public void setSex(Boolean sex) {
@@ -110,7 +104,6 @@ public class User {
      * This method returns the value of the database column user.score
      *
      * @return the value of user.score
-     *
      * @mbggenerated
      */
     public Byte getScore() {
@@ -122,7 +115,6 @@ public class User {
      * This method sets the value of the database column user.score
      *
      * @param score the value for user.score
-     *
      * @mbggenerated
      */
     public void setScore(Byte score) {

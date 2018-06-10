@@ -51,7 +51,8 @@ public class DOMParser {
         }
 
         NodeList priceNodeList = element.getElementsByTagName("price");
-        System.out.println(priceNodeList.item(0).getChildNodes().item(0).getNodeValue());;
+        System.out.println(priceNodeList.item(0).getChildNodes().item(0).getNodeValue());
+        ;
         System.out.println(priceNodeList.item(0).getAttributes().getNamedItem("currency").getNodeValue());
 
         NodeList describeNodeList = element.getElementsByTagName("describe");

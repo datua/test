@@ -20,4 +20,9 @@ public class StringTest {
         System.out.println("byte length: " + s.getBytes().length);
         System.out.println(System.getProperty("file.encoding"));
     }
+
+    @Test
+    public void tt() {
+        System.out.println(System.currentTimeMillis() / 1000);
+    }
 }

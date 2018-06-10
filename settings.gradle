@@ -1,2 +1,5 @@
+rootProject.name = 'test'
 include 'xml-test'
-
+include 'jdk-test'
+include 'logback-test'
+include 'mockito-test'
