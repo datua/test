@@ -3,3 +3,6 @@ include 'xml-test'
 include 'jdk-test'
 include 'logback-test'
 include 'mockito-test'
+include 'algorithm'
+include 'utils'
+
