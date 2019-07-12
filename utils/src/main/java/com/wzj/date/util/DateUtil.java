@@ -22,12 +22,10 @@ public class DateUtil {
     public static String toString(Date date, String format) {
         SimpleDateFormat simpleDateFormat = dateFormatMap.get().get(format);
         if (null == simpleDateFormat) {
-            SimpleDateFormat newDateFormat = new SimpleDateFormat(format);
-            dateFormatMap.get().put(format, newDateFormat);
-            return newDateFormat.format(date);
-        } else {
-            return simpleDateFormat.format(date);
+            simpleDateFormat = new SimpleDateFormat(format);
+            dateFormatMap.get().put(format, simpleDateFormat);
         }
+        return simpleDateFormat.format(date);
     }
 
     public static void main(String[] args) {
